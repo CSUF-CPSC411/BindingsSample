@@ -14,6 +14,7 @@
 		EC94A1E8285BEEA900517A0C /* BindingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC94A1E7285BEEA900517A0C /* BindingsTests.swift */; };
 		EC94A1F2285BEEA900517A0C /* BindingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC94A1F1285BEEA900517A0C /* BindingsUITests.swift */; };
 		EC94A1F4285BEEA900517A0C /* BindingsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC94A1F3285BEEA900517A0C /* BindingsUITestsLaunchTests.swift */; };
+		EC94A201285C010200517A0C /* OldContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC94A200285C010200517A0C /* OldContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		EC94A1ED285BEEA900517A0C /* BindingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BindingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC94A1F1285BEEA900517A0C /* BindingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingsUITests.swift; sourceTree = "<group>"; };
 		EC94A1F3285BEEA900517A0C /* BindingsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC94A200285C010200517A0C /* OldContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				EC94A1D6285BEEA700517A0C /* BindingsApp.swift */,
 				EC94A1D8285BEEA700517A0C /* ContentView.swift */,
+				EC94A200285C010200517A0C /* OldContentView.swift */,
 				EC94A1DA285BEEA900517A0C /* Assets.xcassets */,
 				EC94A1DC285BEEA900517A0C /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC94A1D9285BEEA700517A0C /* ContentView.swift in Sources */,
+				EC94A201285C010200517A0C /* OldContentView.swift in Sources */,
 				EC94A1D7285BEEA700517A0C /* BindingsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
